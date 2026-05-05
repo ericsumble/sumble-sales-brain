@@ -65,6 +65,21 @@ Two paradigm examples of Sumble's wedge in action — and the shape every outbou
 
 **This is also Sumble's outreach motion.** Every email Eric sends needs to follow the same shape — *here's a signal we found about your prospects that ZoomInfo doesn't surface, mapped to your specific product play.* Not *"Sumble has data."* Not *"Sumble is AI-powered."* Specific signal, specific product fit. Anything else is generic.
 
+### The 6-question prospect diagnostic
+
+Before writing a single word to an outbound prospect, answer these about their company:
+
+1. **How does this company make money?** Revenue model, deal size, sales cycle, growth driver.
+2. **What do they sell?** The specific product or play that matters most right now (Jasper IQ governance, BloodHound Enterprise platform, Truffle NHI / secrets, Estuary real-time CDC).
+3. **How do they sell it?** PLG, sales-led, services-first, channel? Where does pipeline come from today and where will it need to come from?
+4. **How are they different?** Their wedge against incumbents. The specific reason a buyer picks them over Pleo / Fivetran / Wiz / GHAS / ChatGPT Enterprise.
+5. **What can they do to position themselves differently than competitors?** Which signals would let *their* reps walk into accounts already knowing the pain that maps to their wedge?
+6. **What data will enable that?** This is the Sumble pitch. Surface the answer to question 5 using signals ZoomInfo, Apollo, and Clay can't see.
+
+> *"We learn that — we pitch that. Sumble wins."*
+
+This diagnostic produces both halves of every outbound email: questions 1–4 give you the **industry tension** opener; questions 5–6 give you the **play to run**. Skip the diagnostic and the email goes generic. The email is only as sharp as the answers.
+
 ---
 
 ## Sumble's ICP (who we sell to)
