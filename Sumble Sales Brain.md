@@ -94,7 +94,15 @@ The right framing: Sumble is **not** trying to be the contact database. It's the
 
 ## Sumble's Plays / Value Narratives
 
-The six plays — they're not mutually exclusive, most accounts fit 2+. Plays #1 and #2 are the **headline pair** for almost every customer conversation: MQL enrichment is the moment-of-truth motion, CRM enrichment is the always-on layer that makes it scalable.
+The sixteen plays — they're not mutually exclusive, most accounts fit 2+. Plays #1 and #2 are the **headline pair** for almost every customer conversation: MQL enrichment is the moment-of-truth motion, CRM enrichment is the always-on layer that makes it scalable.
+
+**The lens for every play.** A play only earns its place in this list if it ladders to at least one of three outcomes for the buyer:
+
+1. **Make their company money** — pipeline, ARR, NRR, win rate, deal size.
+2. **Make their team more efficient** — time recovered, manual work eliminated, fewer tools to stitch together.
+3. **Make their boss like them more** — visible wins, defensible decisions, sharper exec briefings, forecasts they can defend, presentations that look like leadership instead of analysis.
+
+The strongest plays hit all three at once. Whenever a buyer pushes back on a play, locate which of these three you've failed to make concrete and fix that — don't add features.
 
 ### 1. ⭐ MQL enrichment — turn marketing-sourced contacts into sales-ready opps (HEADLINE PLAY)
 The single highest-leverage motion for Sumble. Marketing already generates the contact (web form, gated content, event scan, ad click). Sumble enriches that contact with the **context** that decides whether it converts: *what's actually happening at their company, what initiatives they own, what signals say "this is real budget, not tire-kicking."*
@@ -160,6 +168,86 @@ Build target lists from firmographic + tech + signal filters.
 - **Buyer:** CMO / VP Demand Gen / ABM lead.
 - **Sumble unlock:** filters that other ABM tools don't have (e.g., "uses Snowflake AND hiring ML eng AND has VP-level Data role").
 - **Common pattern:** Marketing builds the list in Sumble → exports to ad platforms / CRM / sequencer.
+
+### 7. Renewal & expansion intelligence
+The leading-indicator layer for the post-sale motion. CS tools fire after the damage; Sumble fires before it.
+- **Who to contact:** Champion = VP Customer Success or VP Account Management. Economic buyer = CRO (NRR is on their dashboard). Customer Marketing lead is a strong influencer.
+- **Why they care:** Renewals are still a Friday-afternoon Google session, expansion happens only when the customer brings it up, and champion churn is invisible until announced. ⚙️ *Efficiency:* CSMs stop manually researching every renewal. 💰 *Money:* a single 8-figure renewal saved or expanded pays for the contract many times over. 🎯 *Boss:* the CRO walks into a board meeting saying "we caught X churn risk and Y expansion six months early."
+- **Sumble unlock:** champion leadership-change detection, new-department hiring at existing customers, competing-tool signals showing up in their job posts, RFP language. 3–6 months ahead of standard CS health-score tooling.
+- **Discovery:** "Walk me through how a CSM finds out a champion has left — how fast?" / "When did your last big expansion start with a CS-side signal vs. a customer ask?"
+- **Metric that improves:** NRR, GRR, gross retention dollars, time-to-expansion-signal.
+
+### 8. Pre-call / pre-meeting briefings
+Automated 1-page exec brief generated the moment a meeting hits the calendar. The "moment-of-meeting" complement to CRM enrichment.
+- **Who to contact:** Champion = VP Sales Enablement or Chief of Staff to the CRO (this is often the actual buyer). Economic buyer = CRO. Heavy influencer = the strategic AEs themselves.
+- **Why they care:** Reps under-prep for first meetings; execs join late and email AEs for a one-pager that doesn't exist; deals slip because the rep walked in cold. ⚙️ *Efficiency:* 30 min/meeting × N reps × the org = enormous time recovery. 💰 *Money:* meeting → next-meeting conversion lifts directly. 🎯 *Boss:* the CRO walks into customer meetings sounding sharp instead of asking the AE to brief them in the Uber.
+- **Sumble unlock:** calendar-trigger briefing (initiatives, leadership moves, signal pattern, attendee backgrounds, suggested questions) delivered to email/Slack/Salesforce before the meeting starts.
+- **Discovery:** "How does your CRO prep for a customer meeting today — and how does the AE feel about that workflow?" / "What % of first meetings convert to a second?"
+- **Metric that improves:** meeting → meeting conversion, prep time per meeting, exec NPS on rep-prepared briefs.
+
+### 9. Pipeline / forecast quality
+Score open opportunities against current Sumble signal — surface zombie deals before the quarter ends.
+- **Who to contact:** Champion = VP Sales Ops or Director of RevOps. Economic buyer = CRO (forecasts are their reputation). CFO is a strong supporting buyer.
+- **Why they care:** Forecasts slip because reps don't update, signals decay between updates, "happy ears" deals stay in commit. Boards punish missed forecasts harder than missed quotas. ⚙️ *Efficiency:* RevOps stops manually scrubbing pipeline weekly. 💰 *Money:* avoided overcommit on hiring/spend, plus saved deals where the rep didn't realize the buying group shifted. 🎯 *Boss:* the CRO presents to the board with a forecast they can defend — *and predicts* the slip rather than explaining it after.
+- **Sumble unlock:** continuous re-scoring of every open opp on signal pattern (buying group still intact, trigger still active, champion still in seat). Outputs a confidence delta in Salesforce.
+- **Discovery:** "How accurate is your commit-stage forecast quarter to quarter? What's the worst-case explanation when it slips?" / "How often does a deal slip because the champion left and you didn't catch it?"
+- **Metric that improves:** forecast accuracy, commit-stage slip rate, late-stage deal cycle length.
+
+### 10. Real-time event-triggered outbound
+First-mover advantage on every named buying trigger — funding, leadership move, M&A, restructuring, product launch.
+- **Who to contact:** Champion = VP Demand Gen or Director of Sales Development. Economic buyer = CMO or CRO depending on whose budget owns triggered campaigns.
+- **Why they care:** Triggers are buying-window opens; most teams find them a week late once the inbox is saturated. ⚙️ *Efficiency:* no human watching the news; the system fires, the AE just shows up. 💰 *Money:* triggered reply rates run multiples of cold; first-mover wins. 🎯 *Boss:* "we won that deal because we were first" — that's an SKO story.
+- **Sumble unlock:** structured event detection across the knowledge graph fires within hours, auto-updates Salesforce, auto-assigns Outreach sequence.
+- **Discovery:** "What % of your outbound today references a real trigger event vs. a generic pitch?" / "How fast does your team respond to a Series B announcement at a target — hours, days, weeks?"
+- **Metric that improves:** trigger-to-touch latency, reply rate on triggered vs. cold, pipeline-from-triggered-events.
+
+### 11. Competitive deal intelligence
+The deal-coaching layer for active competitive cycles — surface what other vendors are showing up, who's championing them, where the budget really sits.
+- **Who to contact:** Champion = VP Sales (deal coaching) or Director of Sales Enablement. Heavy users = strategic AEs themselves. Power = VP Sales / CRO.
+- **Why they care:** Reps lose deals they didn't know were competitive; VPs find out about the loss in the QBR. ⚙️ *Efficiency:* less time on losing deals because you know early. 💰 *Money:* higher win rate on competitive deals. 🎯 *Boss:* the AE walks into deal review with intel the VP didn't have. Reps look smart; the VP looks like a manager who develops smart reps.
+- **Sumble unlock:** when a deal is open, surface other vendors appearing in the prospect's signal trail, contacts who previously worked at competitor's customers, and which exec actually controls the budget vs. who's in the meeting.
+- **Discovery:** "How does a rep find out who else is in a deal? When does the VP find out?" / "What's your win rate on deals you knew were competitive vs. ones that surprised you?"
+- **Metric that improves:** competitive win rate, deal cycle length, late-stage no-decision rate.
+
+### 12. Content / demand-gen targeting
+Most ABM tools answer "who to target." This play answers "what to *say to them* in the content."
+- **Who to contact:** Champion = VP Content or Director of Content Marketing. Economic buyer = CMO. Heavy influencer = Demand Gen lead.
+- **Why they care:** Marketing teams write content based on internal opinion, then guess at distribution. ⚙️ *Efficiency:* stops the "write and pray" content cycle. 💰 *Money:* higher MQL/SAL volume from inbound that actually matches in-market need. 🎯 *Boss:* CMO presents an inbound pipeline that traces directly to a content investment — exactly the conversation the CFO wants to have.
+- **Sumble unlock:** mine cross-account signal patterns to identify the actual question buyers are about to ask ("every fintech going public hires risk + compliance leads 6 months prior") → the content brief, plus the audience comes pre-built.
+- **Discovery:** "How does your team decide what content piece to write next?" / "Can you tie last quarter's pipeline to a specific content asset?"
+- **Metric that improves:** content → pipeline attribution, MQL volume on triggered content, content production-to-pipeline cycle time.
+
+### 13. Customer marketing / case-study sourcing
+Pre-qualified candidates for case studies, reference calls, and exec roundtables — sourced from public signal, not CSM nominations.
+- **Who to contact:** Champion = VP Customer Marketing or Sr. Director of Brand. Economic buyer = CMO. Cross-functional partner = VP Customer Success.
+- **Why they care:** Case studies are sourced via "ask CSMs to nominate" — slow, biased, often miss the moment. References burn out a few customers. ⚙️ *Efficiency:* customer marketing stops cold-calling CSMs. 💰 *Money:* more case studies → more late-stage deal acceleration. 🎯 *Boss:* CMO ships the quarterly content commitment on time without depending on Sales.
+- **Sumble unlock:** find existing customers whose public signals show they just hit a milestone, won an award, got promoted, launched something — pre-qualified, ready to ask.
+- **Discovery:** "How does your team source case study candidates today? How long does it take?" / "When was your last reference call → closed deal?"
+- **Metric that improves:** case studies published per quarter, reference call → closed-won rate, time-from-customer-milestone-to-asset.
+
+### 14. PLG signal qualification
+For self-serve products: distinguish a serious enterprise adoption push from one-off tinkerers, by combining internal PLG telemetry with external Sumble signal.
+- **Who to contact:** Champion = VP PLG, Head of Self-Serve, or Head of Inside Sales (PLG-to-enterprise crossover). Economic buyer = CRO or VP Product depending on org structure.
+- **Why they care:** PLG products generate millions of signups; only a fraction are real enterprise adoption. Sales either works all of them (waste) or none (miss). ⚙️ *Efficiency:* sales team works 100 hot signals a week, not 10,000 raw signups. 💰 *Money:* higher PLG → enterprise conversion. 🎯 *Boss:* the CRO can finally point to PLG ARR as a real number, not "we'll figure it out."
+- **Sumble unlock:** combine signups + multi-user adoption + usage signal with external context (nearby hiring, leadership, project signals) to score signups for enterprise potential.
+- **Discovery:** "How does a free signup become a sales-led conversation today? What's the conversion rate?" / "How does your PLG team decide which orgs are worth a sales motion?"
+- **Metric that improves:** PLG → enterprise conversion, sales-touched signup conversion, enterprise ARR sourced from self-serve.
+
+### 15. Win/loss pattern mining
+Empirically refine the ICP by pattern-matching closed-won vs closed-lost on Sumble signals.
+- **Who to contact:** Champion = VP Sales Strategy, Director of RevOps, or Chief of Staff to the CRO. Economic buyer = CRO. Power partners = Marketing Strategy + Finance.
+- **Why they care:** Win/loss happens via 1:1 interviews months later, biased toward what the customer remembers. ICP gets refined annually, by gut, in a planning meeting. ⚙️ *Efficiency:* less time on win/loss interviews. 💰 *Money:* sharper ICP → better territory design → higher attainment. 🎯 *Boss:* the CRO presents an ICP refresh backed by data, not opinion. RevOps presents a territory model that defends itself in front of the CFO.
+- **Sumble unlock:** pattern-match closed-won vs closed-lost accounts across Sumble signals; output empirically-weighted ICP signals — what actually predicts wins.
+- **Discovery:** "When did you last refresh your ICP? Based on what?" / "What % of your wins fit your stated ICP?"
+- **Metric that improves:** ICP fit % of wins, attainment by ICP segment, territory load balance.
+
+### 16. Vertical playbook development
+Turn one signal pattern into 50+ targeted accounts with packaged messaging.
+- **Who to contact:** Champion = VP Industry / VP Strategic Accounts / VP Sales Strategy. Economic buyer = CRO. Cross-functional ally = vertical-aligned Marketing leader.
+- **Why they care:** "Verticals" in many sales orgs are just named territories — no real playbook, no shared signal pattern, no specialized messaging. ⚙️ *Efficiency:* reps stop re-discovering the same vertical patterns; they're packaged. 💰 *Money:* verticalized motion typically lifts win rate 2–3× over generalist. 🎯 *Boss:* VP Industry shows the CRO a playbook *with a list and a pipeline target attached.* Looks like leadership, not analysis.
+- **Sumble unlock:** mine cross-account signals within a vertical (fintech pre-IPO, healthtech post-FDA, devtools at Series B), surface the recurring pattern, ship a playbook + a 50-account list keyed off that pattern.
+- **Discovery:** "Do you have real vertical playbooks today, or just verticals on the org chart?" / "Which vertical do you wish you had more depth in — what's stopping you?"
+- **Metric that improves:** vertical attainment, vertical win rate, vertical pipeline volume.
 
 ### The unifying narrative
 
