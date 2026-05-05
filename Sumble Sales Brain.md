@@ -90,6 +90,116 @@ The right framing: Sumble is **not** trying to be the contact database. It's the
 - **vs Clay:** "Clay is the kitchen. Sumble is one of the best ingredients. Teams running Clay add Sumble as a column."
 - **vs HG Insights:** "HG sees the building. Sumble sees the rooms inside it." (Department-level granularity.)
 
+For Clay and Common Room — the two competitors most likely to surface in detailed objection-handling — see **Detailed Battlecards** below.
+
+---
+
+## Detailed Battlecards
+
+The high-level table above is the opener. These deeper battlecards are for moments when a buyer pushes on Clay or Common Room specifically. Stay high-level first; only drop into feature comparisons after you've reframed the relationship.
+
+### Battlecard: Clay
+
+**Frame:** Sumble and Clay work best **together**. Don't fight the comparison — reframe it.
+
+> *"Use Sumble to find the signal. Use Clay to automate the follow-up."*
+
+**One-line positioning:** Sumble = who, when, and why. Clay = how.
+
+**Stay high-level before getting into features. Position as complementary first, then hone in on data quality.**
+
+**Why Sumble shows up first in a Clay-running stack:**
+
+- Built for sales teams — zero setup, reps get territory-wide visibility on day one.
+- Verified, first-party signals: Snowflake data sharing, team behavior, structured job posts, stack adoption. Not scraped LinkedIn or noisy intent.
+- Live project detection — accounts launching AI / cloud / data / security initiatives in real time.
+- Suggested contacts mapped by role. No manual contact-waterfall building.
+- Salesforce enrichment without per-update credit charges.
+- Sales-tuned GenAI for account prep, messaging, account summaries.
+- Stack, hiring, and team visibility unified.
+
+**What Clay does well — acknowledge, don't fight:**
+
+- Orchestrates outbound across multiple data tools.
+- Personalizes 1:1 emails at scale into Outreach / HubSpot.
+- Job-change plays on uploaded contact lists.
+
+**How they work together (the pitch):**
+
+- Start with Sumble to identify the right accounts, verify usage, surface decision-makers.
+- Use Clay to launch outbound plays from there.
+- Without Sumble, Clay workflows automate on weak or stale enrichment.
+
+**Feature breakdown:**
+
+| Functionality | Sumble | Clay |
+|---|---|---|
+| Prioritized GTM signals | ✅ | ❌ |
+| Tracks real product users (via Snowflake sharing) | ✅ | ❌ |
+| Identifies in-flight initiatives (AI/Cloud/Data/Security) | ✅ | ❌ |
+| Enriches Salesforce without per-record cost | ✅ | ❌ (charged per update) |
+| Auto-suggests relevant contacts by role | ✅ | ❌ (manual waterfall) |
+| Built-in GenAI for sales prep | ✅ | ❌ |
+| Tech stack / hiring / team intel | ✅ | ⚠️ Limited (3rd-party plugins) |
+| Sends emails via sequencer | ❌ | ✅ |
+| Tracks job changes on uploaded contacts | ❌ | ✅ |
+| Designed for reps (not RevOps builders) | ✅ | ❌ |
+
+**Objection: "How do you compare with Clay?"**
+
+Response:
+
+- Great question.
+- Many people think Clay and Sumble compete. We're actually complementary.
+- Clay does a great job executing sequences, alerts, and custom plays — once the target is identified.
+- Sumble excels at the *who to target, when to target, and why to target.* Quality data in, clear signals out.
+
+---
+
+### Battlecard: Common Room
+
+**Frame:** Common Room is a Customer Intelligence Platform built for GTM (Sales, Marketing, Community, CS). They differentiate from ZoomInfo / Clearbit by connecting signals + human identity + activation. Their messaging: *"turning signals into pipeline."*
+
+**Their core capabilities:**
+
+- **Signals** — product usage, website visits, job changes, community activity, events, intent data.
+- **Person360™** — AI identity resolution unifying scattered data into one record.
+- **RoomieAI™ (AI SDR)** — automates prospecting from signal surface to outreach sequence.
+- **Integrations** — Salesforce, HubSpot, Outreach, Salesloft, Snowflake, Hightouch, Census, Slack.
+- **Enterprise platform** — SOC 2 Type II, GDPR/CCPA, SSO, audit logs.
+
+**Their best use cases:**
+
+- Account prioritization with dark-funnel coverage.
+- Personalized outreach drafted from signal context.
+- Community-led growth (Slack / Discord / GitHub / LinkedIn / forums).
+- Pipeline acceleration on adoption spikes or stakeholder moves.
+
+**Reference logos:** Notion, Figma, Confluent, dbt Labs, Grafana Labs, OpenAI. Strong PLG / DevTools brand.
+
+**Where Common Room is strong:**
+
+- Unified identity + workflow automation.
+- Broader signal ingestion (dark funnel).
+- Brand pull with PLG and DevTools companies.
+
+**Where they're weak (Sumble advantage):**
+
+- Their signals lack depth in technographics and structured project intelligence.
+- Heavy community / product-led tilt — not always a fit for outbound-heavy enterprise sales.
+- More complex setup, reliant on warehouse / product-usage integrations.
+- Sumble: cleaner technographic + team enrichment, sales-play tuned, easier to deploy out of the box.
+
+**Objection handling:**
+
+*"Common Room already gives us signals."*
+
+→ Acknowledge first. Then highlight Sumble's stronger competitive and technographic data, which complements and deepens Common Room's "who moved / where" signals.
+
+*"We like their AI SDR."*
+
+→ Position Sumble as signal-first and sales-play tuned, not generic AI outreach. Reps don't need AI to tell them "send an email." They need the right data triggers.
+
 ---
 
 ## Sumble's Plays / Value Narratives
