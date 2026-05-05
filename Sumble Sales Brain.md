@@ -48,6 +48,23 @@ Sumble crawls social media, job boards, company sites, and regulatory filings, t
 
 ZoomInfo, Apollo, and Clay tell you **who** exists at a company. Sumble tells you **what's actually happening inside** — projects, team-by-team tooling, who owns what — so reps know not just who to email but **why now and what to say**. The wedge is *contextual depth at the team level*, not contact volume.
 
+### How this shows up in real deals
+
+Two paradigm examples of Sumble's wedge in action — and the shape every outbound conversation should follow:
+
+**Oracle / DORA cloud storage play.** Oracle reps hunting EU Digital Operational Resilience Act opportunities needed to find non-obvious matches: companies doing offshore drilling, companies with remote data center storage requirements. Those signals live in job posts, project mentions, and team-level details — not in ZoomInfo or Apollo. Sumble surfaced them. Reps walked into accounts already knowing the initiative existed and tied it to specific Oracle products.
+
+**Zendesk / call-center MQL play.** Zendesk launched a new contact-center product. Their MQL pipeline didn't separate *"company has a real call-center operation"* from generic CX leads. Sumble identified call-center signals across the prospect base — vendor switches, agent role hiring, team mentions — that traditional firmographics missed. MQL → SQL conversion improved because reps stopped wasting cycles on contacts who didn't own that motion.
+
+**The pattern in both cases:**
+
+1. Understand the prospect's specific product or play.
+2. Define their ICP at the **signal level**, not the firmographic level (*"company has a call center"* not *"company has 1,000+ employees in CX industry"*).
+3. Uncover the non-obvious matches via Sumble MCP — job posts, team mentions, hiring patterns, project signals.
+4. Position those as pipeline the prospect didn't know existed.
+
+**This is also Sumble's outreach motion.** Every email Eric sends needs to follow the same shape — *here's a signal we found about your prospects that ZoomInfo doesn't surface, mapped to your specific product play.* Not *"Sumble has data."* Not *"Sumble is AI-powered."* Specific signal, specific product fit. Anything else is generic.
+
 ---
 
 ## Sumble's ICP (who we sell to)
