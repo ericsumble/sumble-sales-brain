@@ -169,67 +169,44 @@ Lead with that. Then drop into whichever play fits the buyer in front of you.
 
 ---
 
-## Reference Pitch: The Zendesk Strategic Brief (worked example)
+## How We Sell — The Zendesk Brief as Style Reference
 
-This is the canonical pitch arc for Plays #1 + #2 combined. It's a real internal-discussion deck (`Sumble_Zendesk_MQL_3.html`) built for Zendesk and it's the template Eric should adapt for any prospect with a similar shape: high inbound MQL volume, large AE org, AI/AR pressure from leadership, segmented attainment gap.
+There's a real internal-discussion deck (`Sumble_Zendesk_MQL_3.html`) built for Zendesk that exemplifies how we sell at Sumble. **It is not a template to repeat for every prospect.** It's an example of the *style of selling* we want to do: value-based, specific to that buyer, anchored in their own strategic numbers, with real signal pulled live — not generic claims.
 
-### The arc (18 slides, summarized)
+The reason to study it isn't to copy the slides. It's to internalize the moves.
 
-1. **The strategic context.** Anchor in their CEO's number. For Zendesk: "$500M AI ARR target. $200M today. The path runs through a $700M pipeline gap." (Tom Eggemeier, AWS re:Invent 2025.) Net new ARR needed × 4× pipeline coverage = $1.2B in net-new pipeline. ~1,000 AEs × $500K each = $500M sourced. **Gap: $700M.**
-2. **The problem in one number.** Today's MQL → SQL conversion: ~1%. Industry-typical for B2B inbound. Marketing hits volume targets, SDRs work the queue, **99% never becomes pipeline.**
-3. **The reframe.** *"You don't have a lead problem. You have a context problem."* Adding more leads, more sequences, more nurture won't fix it. The bottleneck is the moment an SDR opens a fresh MQL and sees a name, a title, an asset — and almost nothing else.
-4. **A real lead.** Pick one specific, non-obvious example. In the Zendesk deck: a senior banker at Morgan Stanley visits the Zendesk help center. No form fill. One page view. Identified by visitor-tracking.
-5. **Before — the SDR's view.** Show the actual MQL record in their tool. A name, a title, a firm, a help-center page view. A "Research with AI" button — *the system itself admitting it doesn't have enough context.*
-6. **The SDR's three options, none of which convert.**
-   - Spend 20 minutes researching → triages one lead, ignores the queue.
-   - Send a generic nudge → 2% reply rate, opportunity dies politely.
-   - Skip it entirely → opportunity dies quietly.
-7. **Sumble detects the trigger.** *Why* was the banker on the help center? In the Zendesk deck: he was researching for **Acko's $2–2.5B IPO mandate.** This is the inference no other tool makes.
-8. **The transitive opportunity.** *"The MQL was Oscar. The opportunity is Acko."* Reverse-IP tools surface visitors. Intent platforms surface topics. Neither traces a senior banker's visit back to the deal he was mandated on. **Sumble didn't enrich the lead — Sumble re-routed the deal.**
-9. **The signal pattern at the real account.** Concrete bullets:
-   - 9 Conversational AI + 7 LLM engineer reqs tied to customer-facing automation
-   - 30+ active claims & customer service ops roles across five Indian metros
-   - 5% workforce reduction (April 2026) publicly tied to "AI integration"
-   - DRHP filing window opens H2 2026 — operational tooling decisions get locked in *now*
-10. **The buying group, surfaced.** Four people. Three at Acko. *None filled out a form.* Multi-thread sequence ready, already enriched, already linkable.
-11. **Match to their plays.** Show how the account's signal pattern triggers their internal plays — and name the specific peer customer whose case study lands. (For Zendesk: AI Transformation play, Lush + Siemens proofs.)
-12. **Same hour, two emails.** This is the killer slide. Show the generic email a rep sends today next to the specific email Sumble enables.
-    - Generic: *"Hi Oscar — I noticed you visited our help center recently. Just wanted to reach out and see if there's anything specific we can help you find..."*
-    - Specific: *"Animesh — I'll be specific about why I'm reaching out, because I know the next 12 months at Acko are going to be ferocious. Morgan Stanley, ICICI, and Kotak just got named on the IPO. Your team is up to 9 Conversational AI reqs and 7 LLM engineer roles, and the April workforce restructuring around AI integration was a clear public signal. Meanwhile you're serving 75M users with ~1,300 employees across five metros — the math doesn't support staying on email-and-tickets through the DRHP window. This is the exact pattern we ran with Lush (369% ROI) and Siemens (23% productivity lift). Worth a 25-minute conversation? I'd loop in Rohan from your AI side."*
-13. **The aggregate impact.** *"Same 1,000 MQLs. 7× more SQLs."* Reply rate jumps from 4% to 22-28%.
-14. **The attainment gap visualized.** Strategic AEs hit 54% attainment ($110-130K avg deal, ~4 deals/yr). SMB AEs hit 33% ($16.5K avg deal, ~22-36 deals/yr). *"The difference isn't talent. It's signal-per-account."* (Source: RepVue, 1,343 verified Zendesk seller ratings.)
-15. **The under-worked majority.** The biggest gains aren't from the leads reps already work — they're from the cold-bucket leads getting skipped today. Generic-to-specific lift on engaged leads: 4% → 18-22%. Cold-bucket lift: pure incremental SQL because the alternative is zero outreach.
-16. **The category claim.** *"Other tools tell you who they are. Sumble tells you what they're being mandated to do."* Connecting deal mandate + hiring graph + buying group + the right play in time for the SDR's first email requires four structured datasets that exist together in exactly one place.
-17. **The land.** *"Your funnel doesn't need more leads. It needs the layer between record and action."* Three-step rollout:
-    1. Run 90 days on a cohort — one segment, one SDR pod, measure conversion lift.
-    2. Pipe into Salesforce + Outreach — enrichment as account fields and play matches.
-    3. Roll out to the full team — *same MQL volume, materially more pipeline. Marketing's number stays the same; sales' number changes.*
+### What the deck does well — the moves to repeat
 
-### How to adapt this arc to a new prospect
+- **Anchors in the buyer's own strategic number.** For Zendesk that was Eggemeier's public $500M AI ARR target → $700M pipeline gap. Every prospect has *some* version of this — a public target, an investor commitment, a quoted growth number. Find theirs. Don't pitch Sumble against a generic "improve conversion" claim.
+- **Uses one real, specific, non-obvious example.** Not "imagine a lead from a Fortune 500 bank" — a named senior banker at Morgan Stanley visiting the Zendesk help center, traced to Acko's $2–2.5B IPO mandate. The specificity is the point. If you can't find a real one for the prospect, don't fake it.
+- **Shows before / after.** The generic email next to the Sumble-enabled email — *same hour, same lead, completely different outreach.* This is almost always the moment the buyer leans in. The contrast does the selling.
+- **Connects signals into a narrative.** Hiring reqs + workforce restructuring + IPO timing + scale-of-operation isn't a data dump — it's a story about why the buyer should act now. Reps recognize this immediately because it's how they wish their own research worked.
+- **Lands on a metric the buyer already cares about.** MQL→SQL conversion. Strategic-vs-SMB attainment gap. Pipeline-per-rep. Pick something already on their leadership dashboard; don't introduce a new metric.
+- **Closes with a contained pilot.** "Run 90 days on a cohort. Pipe into Salesforce + Outreach. Roll out." Not a platform commitment — a measurable test.
 
-Replace four anchor variables and the rest follows:
+### What we are *not* trying to do
 
-| Variable | What to find | Where to find it |
-|---|---|---|
-| **The CEO number** | Their public ARR / pipeline / growth target | Earnings calls, investor day decks, conference keynotes |
-| **The real MQL example** | One non-obvious help-center / docs / pricing-page visitor whose backstory is interesting | Their own analytics + Sumble enrichment of recent visitors / form fills |
-| **The signal pattern** | 4 bullets that tell the buying story (hiring + restructuring + timing trigger + scale) | Sumble account profile |
-| **The peer proof points** | 2 customer logos with hard numbers (ROI %, productivity lift, conversion) | Their own marketing site / case studies |
+- **Not a script.** Don't walk slides 1-through-18 with a prospect who hasn't earned them. Most pitches won't have a "$700M gap" hook because most companies aren't Zendesk.
+- **Not a deck to send cold.** It's a framing exercise — internal thinking that a customer conversation can draw from, not a leave-behind.
+- **Not Sumble-feature-led.** Notice how little of the deck is about Sumble's UI, data sources, or coverage. It's about the buyer's pipeline math and one specific lead. Sumble shows up in the contrast, not as the subject.
 
-The structure (problem → reframe → real example → before/after → aggregate impact → category claim → land) doesn't change. The variables do.
+### The two emails — worth memorizing as voice reference
 
-### When to use this arc
+The deck's most reusable artifact is the side-by-side outreach. Read these as reference for *what specific, value-based outbound sounds like* — not as a literal template.
 
-- Account has high inbound volume + a stretched ARR target + a known attainment gap (segmented sales org).
-- Champion is RevOps; economic buyer is CRO or CMO.
-- They've already tried "more leads" and it didn't move the number.
-- You can find a real, specific, non-obvious MQL example for them. Without that, the "before / after" emails fall flat.
+**Generic (what most reps send today):**
+> Hi Oscar — I noticed you visited our help center recently. Just wanted to reach out and see if there's anything specific we can help you find. [Company] works with companies of all sizes to deliver world-class customer service. Happy to share more if you're exploring options. Best, David
 
-### When NOT to use this arc
+**Specific (what Sumble enables):**
+> Animesh — I'll be specific about why I'm reaching out, because I know the next 12 months at Acko are going to be ferocious. Morgan Stanley, ICICI, and Kotak just got named on the IPO. Your team is up to 9 Conversational AI reqs and 7 LLM engineer roles, and the April workforce restructuring around AI integration was a clear public signal. Meanwhile you're serving 75M users with ~1,300 employees across five metros — the math doesn't support staying on email-and-tickets through the DRHP window. This is the exact pattern we ran with Lush (369% ROI) and Siemens (23% productivity lift). Worth a 25-minute conversation? I'd loop in Rohan from your AI side.
 
-- Early-stage GTM with no segmentation in their AE org (no attainment gap to exploit).
-- Pure SMB outbound shop — the math is different and the deck's strategic-vs-SMB framing doesn't land.
-- Buyer hasn't confirmed they care about MQL→SQL conversion. Run discovery first; don't pitch this deck cold.
+The pattern in the second email — *named external trigger → quantified internal signal → operational tension → peer proof → low-friction CTA with a named second contact* — is the voice we want, scaled down to fit any prospect.
+
+### The category claim worth carrying into every conversation
+
+> *"Other tools tell you who they are. Sumble tells you what they're being mandated to do."*
+
+Use it when a buyer compares us to ZoomInfo / Apollo / Clay. It's the single sentence that resets the frame from data-volume to context.
 
 ---
 
