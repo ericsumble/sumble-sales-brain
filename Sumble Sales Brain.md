@@ -322,9 +322,18 @@ Two different motions, same email rules. Don't mix them up — the wrong voice f
 - One specific data point per email — the more concrete, the better.
 - Vary openers across a batch.
 
+### Pacing and what to drop
+
+- **Get to the play within 2 sentences.** Don't preamble with industry context. The play IS the context — the framing of *"here's a non-obvious signal that maps to your wedge"* communicates that we understand the industry. Long industry intros are the email equivalent of clearing your throat.
+- **Drop Slack-receipt vanity metrics.** Query counts, credit spend, export sizes, paid-action counts — those receipts matter to us internally, not to the prospect. They care about their pipeline and their differentiation, not how many filters they applied last week. Keep the receipt soft: *"saw you signed up"* / *"saw the team coming together"* / *"saw the rebuild."*
+- **Label their competitors by name.** Pleo and Spendesk for Moss. ChatGPT Enterprise and Writer.com for Jasper. Wiz and Orca for JupiterOne. GHAS and GitGuardian for Truffle. Showing you know the landscape lands the message — it's also how Sumble's wedge becomes concrete: *"X sells on coverage. You sell on connectedness. Sumble finds the accounts where connectedness wins."*
+- **Tone is friendly, not accusatory.** The receipt-warmth (*"welcome aboard"*, *"saw the rebuild"*, *"wanted to share a quick play"*) earns the directness that follows. A blunt opener feels combative even when the diagnosis is right.
+
 ### The biggest mistake
 
-Running inbound voice (*"welcome to Sumble, you ran 200 queries"*) on an outbound target who never signed up — they'll bounce. Conversely, opening inbound with formal outbound ceremony (*"I'll be specific about why I'm reaching out, because…"*) wastes the warmth they gave you by signing up.
+Talking *about* the prospect's Sumble usage instead of *to* the prospect about their problem. *"You ran 200 queries on Fivetran adopters this week"* feels personal but isn't — it's our internal vanity metric, not their pipeline math. They don't care that they ran 200 queries. They care whether you understand their fight against Fivetran.
+
+The other failure: running inbound voice (*"welcome to Sumble"*) on an outbound target who never signed up — they'll bounce. Conversely, opening inbound with formal outbound ceremony (*"I'll be specific about why I'm reaching out…"*) wastes the warmth they gave you by signing up.
 
 ---
 
