@@ -86,9 +86,9 @@ This diagnostic produces both halves of every outbound email: questions 1–4 gi
 
 Primary buyers, in priority order:
 
-1. **Sales leaders** — CRO, VP Sales, VP RevOps, RevOps Director. They own pipeline efficiency and rep productivity. Pain: reps wasting time on bad accounts; ZoomInfo data is stale or shallow.
-2. **Marketing leaders** — CMO, VP Demand Gen, ABM lead. They own targeting and segmentation. Pain: ABM lists built from firmographics + revenue alone don't reflect what's actually happening inside accounts.
-3. **Enterprise revenue teams** — mid-market and enterprise sales orgs with established stacks (already have ZoomInfo / Apollo / Clay / Salesforce). They want a *layer of context* on top, not a rip-and-replace of their existing data tools.
+1. **Marketing leaders — the top ICP for Sumble.** CMO, VP Marketing, VP Demand Gen, ABM lead. They own the largest discretionary GTM budget on the team, they drive pipeline as a primary mandate, and they're under explicit pressure to *make data-driven decisions* (the phrase appears in most CMO scorecards). They buy Sumble for ABM list-building, MQL enrichment, audience definition, and account-based campaign targeting. Pain: ABM lists built from firmographics + revenue alone don't reflect what's actually happening inside accounts; pipeline targets miss because the targeting layer is shallow. The CMO's quarterly pipeline number is the anchor — the bigger their pipeline commit, the bigger the deal.
+2. **Sales leaders.** CRO, VP Sales, VP RevOps, RevOps Director. They own rep productivity and pipeline efficiency on the closing side. Pain: reps wasting time on bad accounts; ZoomInfo data is stale or shallow. They buy Sumble for CRM enrichment, account prioritization, and rep-level signal density. RevOps Director is typically the operationalizer who runs the eval and builds the case for the CRO.
+3. **Enterprise revenue teams.** Mid-market and enterprise sales orgs with established stacks (already have ZoomInfo / Apollo / Clay / Salesforce). They want a *layer of context* on top, not a rip-and-replace of their existing data tools.
 
 ### Where Sumble lands easiest
 
