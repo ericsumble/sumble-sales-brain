@@ -374,6 +374,7 @@ These are Eric's personal preferences, not Sumble policy. Worth keeping consiste
   Eric
   Account Executive | Sumble
   ```
+- **BCC Eric's Salesforce email-to-record drop address** on every prospect draft (inbound follow-up or outbound first-touch) so it auto-logs to the Lead/Contact in SFDC. The literal address lives in Eric's local Claude memory (`salesforce_bcc.md`), not in this repo (public).
 - **Sequencing:** all sends go through Salesforce + Gmail with native tooling. No autonomous send. No Mail.app loop. No 200/day cap (that was a Zendesk-era system).
 
 ---
