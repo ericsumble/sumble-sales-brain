@@ -421,6 +421,24 @@ Pick the play (one of: MQL enrichment, CRM enrichment, tech-stack displacement, 
 
 Same Sales Brain — same ICP priority order (Marketing > Sales > Enterprise revenue teams), same 6-question diagnostic, same canonical email patterns, same email rules, same SFDC BCC, same dedup principle (drafts count as touched, prior contact = re-engagement angle not skip).
 
+### Cluster prospecting (specialized outbound)
+
+**Trigger:** *"Find the best prospect for [target company]"* / *"Run a cluster on [category leader and their competitors]."*
+
+A more specialized outbound motion: read a target company's trophy customer stories, derive their *real* ICP (not what they say it is), surface one specific best-fit prospect via Sumble MCP that ZoomInfo can't see, and frame that deliverable as the wedge into the target company's CMO/CRO/VP RevOps.
+
+**5 phases per company:**
+
+1. **Read their trophy stories.** WebFetch `/customer-stories` + homepage. Extract names, industry, size, use case, outcome metrics, deal-size signals.
+2. **Derive their real ICP from the trophies.** Identify the spear-tip product they're pushing hardest (e.g., Zendesk's AI Agents in 2026). The trophies reveal what they're proud of and want to repeat.
+3. **Translate to Sumble-MCP-queryable signals** including at least one non-obvious match ZoomInfo can't tag.
+4. **Query Sumble MCP** (`FindJobs`, `FindOrganizations`, `RunSqlQuery`, `EnrichOrganization`, `FindPeople`, `EnrichPerson`). Pick top 1 by signal density.
+5. **Frame the deliverable:** *"Best prospect for [Target]'s [spear-tip] play: [Account X]. Why it fits: [trophy match]. What Sumble surfaced: [non-obvious signal]. What ZoomInfo can't see: [team-level signal]. The pitch [Target] should run: [product → pain]."*
+
+**Cluster scaling:** define a category leader and their competitors as a cluster. Each member shares the category but has its own *intricacy* (Zendesk = enterprise AI Agents; Intercom = PLG mid-market SaaS; Freshworks = cost-conscious mid-market; Salesforce Service Cloud = CRM-tied enterprise). Run Phases 1–5 per cluster member, with intricacy-specific filters at Phase 3. One cluster understanding produces N tailored pitches — the leverage compounds.
+
+Operational details (cluster definitions, per-company intricacies) live in `cluster_prospecting_framework.md` in Eric's local memory.
+
 ---
 
 ## Discovery — Command of the Message Cuts
