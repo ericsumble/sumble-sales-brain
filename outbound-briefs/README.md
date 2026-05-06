@@ -1,6 +1,18 @@
 # Sumble Strategic Outreach (Outbound) — Research Briefs
 
-This directory holds completed **Outbound Strategic Research Briefs** produced via the Outbound Strategic Sales Motion documented in the main [Sumble Sales Brain](../Sumble%20Sales%20Brain.md) (see `## Workflows` → `Outbound Sales Brain — target deep-research methodology`).
+This directory holds **Outbound Strategic Research Briefs** — both the reusable template and completed instances. Briefs are produced via the Outbound Strategic Sales Motion documented in the main [Sumble Sales Brain](../Sumble%20Sales%20Brain.md) (see `## Workflows` → `Outbound Sales Brain — target deep-research methodology`).
+
+## How to start a new brief
+
+1. Copy [`TEMPLATE.md`](TEMPLATE.md) to `{target-company}-{anchor-prospect}-{YYYY-MM-DD}.md` in this directory.
+2. Run the 10-phase Outbound Sales Brain methodology (Sumble MCP + WebFetch + WebSearch).
+3. Fill every bracketed placeholder. No sections are optional.
+4. Commit. The brief is now a permanent reference + reusable proof point.
+
+## Single account vs. cluster runs
+
+- **Single account:** one brief file. Sumble pitches one target (e.g., Gong) with one anchor prospect (e.g., LastPass).
+- **Cluster:** N brief files in this directory, one per cluster member. Same methodology, different *intricacies* per company. The cluster's intricacy table lives in the methodology doc; each individual brief has its own complete file. Example cluster: Zendesk → Intercom → Freshworks → Salesforce Service Cloud → ServiceNow CSM → Forethought → Ada → HubSpot Service Hub → Genesys / NICE / Five9.
 
 ## What lives here
 
