@@ -322,6 +322,12 @@ Two different motions, same email rules. Don't mix them up — the wrong voice f
 - One specific data point per email — the more concrete, the better.
 - Vary openers across a batch.
 
+### Dedup and re-engagement
+
+Before every draft, check for prior contact via the Slack thread's `Emails — Sent to them` / `Past meetings` enrichment fields, and via Gmail thread search on the prospect's email. **Drafts count as touched** — once a Gmail draft exists for a recipient, they're touched whether or not the draft was sent.
+
+When prior contact exists, draft a fresh re-engagement angle (different play, different signal) instead of a re-intro. Open with *"Wanted to circle back since [last date]"* or *"Saw you back in Sumble — here's what's changed"* — never *"Welcome aboard"* on someone we already messaged. Every re-touch gets a fresh angle regardless of cooldown — no "skip" rule.
+
 ### Pacing and what to drop
 
 - **Get to the play within 2 sentences.** Don't preamble with industry context. The play IS the context — the framing of *"here's a non-obvious signal that maps to your wedge"* communicates that we understand the industry. Long industry intros are the email equivalent of clearing your throat.
