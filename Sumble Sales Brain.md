@@ -461,7 +461,7 @@ A specialized outbound motion: stand in the target's shoes, deep-research their 
 
 **Segment-by-segment pipeline math (always):** never one inflated number. Break into existing-customer expansion potential ($X) + net-new-logo TAM ($Y), each with explicit math the buyer can sanity-check.
 
-**Cluster scaling:** define a category leader and their competitors as a cluster. Each member shares the category but has its own *intricacy* — Zendesk (enterprise + AI Agents), Intercom (PLG mid-market SaaS), Freshworks (cost-conscious mid-market), Salesforce Service Cloud (CRM-tied enterprise). Run all 10 phases per cluster member with intricacy-specific filters at Phase 3 and Phase 8.
+**Cluster scaling:** define a category leader and their competitors as a cluster. Each member shares the category but has its own *intricacy*. **Cluster definitions and intricacies are pulled dynamically per run** via WebSearch + Sumble MCP — never hardcoded in this repo. Run all 10 phases per cluster member with intricacy-specific filters at Phase 3 and Phase 8. Only the briefs that get pushed are saved (one file per member in `outbound-briefs/`); the cluster shape is implicit in the set of briefs produced.
 
 **Validated:** 2026-05-06 against Zendesk. Surfaced full GTM stack (6Sense + ZoomInfo + Apollo + Demandbase + Marketo as legacy data layer; Salesforce + Outreach + HubSpot as core), AI Product Specialist organization with dedicated sales operations, and full Marketing/Sales/RevOps leadership shortlist in ~3 minutes / ~150 credits.
 
