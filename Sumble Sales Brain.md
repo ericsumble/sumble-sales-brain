@@ -465,6 +465,10 @@ A specialized outbound motion: stand in the target's shoes, deep-research their 
 
 **Validated:** 2026-05-06 against Zendesk. Surfaced full GTM stack (6Sense + ZoomInfo + Apollo + Demandbase + Marketo as legacy data layer; Salesforce + Outreach + HubSpot as core), AI Product Specialist organization with dedicated sales operations, and full Marketing/Sales/RevOps leadership shortlist in ~3 minutes / ~150 credits.
 
+**Validated:** 2026-05-06 against Gong. Surfaced LastPass as `[WIN-BACK + EXPANSION]` anchor — dormant Gong adoption + new CRO Chris Michelmore (Feb 2026, ex-Zoom) + 60-day rebuild pattern under him. ~$25M annualized new-ARR play (~30% of Gong's 2026 growth target) from a single Sumble-surfaced trigger combination invisible to ZoomInfo / Apollo / 6Sense / Clari. Full brief: [`outbound-briefs/gong-lastpass-2026-05-06.md`](outbound-briefs/gong-lastpass-2026-05-06.md).
+
+**Completed briefs live in [`outbound-briefs/`](outbound-briefs/).**
+
 ---
 
 ## Discovery — Command of the Message Cuts
