@@ -421,23 +421,39 @@ Pick the play (one of: MQL enrichment, CRM enrichment, tech-stack displacement, 
 
 Same Sales Brain — same ICP priority order (Marketing > Sales > Enterprise revenue teams), same 6-question diagnostic, same canonical email patterns, same email rules, same SFDC BCC, same dedup principle (drafts count as touched, prior contact = re-engagement angle not skip).
 
-### Cluster prospecting (specialized outbound)
+### Outbound Sales Brain — target deep-research methodology
 
-**Trigger:** *"Find the best prospect for [target company]"* / *"Run a cluster on [category leader and their competitors]."*
+**Trigger:** *"Find the best prospect for [target company]"* / *"Run the outbound sales brain on [target]"* / *"Test on [next company]."*
 
-A more specialized outbound motion: read a target company's trophy customer stories, derive their *real* ICP (not what they say it is), surface one specific best-fit prospect via Sumble MCP that ZoomInfo can't see, and frame that deliverable as the wedge into the target company's CMO/CRO/VP RevOps.
+A specialized outbound motion: stand in the target's shoes, deep-research their GTM stack + initiatives + leadership via Sumble MCP, then deliver a persona-tailored pitch anchored on a specific top-fit prospect with segment-by-segment pipeline math.
 
-**5 phases per company:**
+**Two ICPs, never conflated:**
+- **Sumble's ICP** = who at the target receives the deliverable (Marketing first per the ICP table above).
+- **Target's ICP** = who at the prospect their AE pursues. Varies by what the target sells.
 
-1. **Read their trophy stories.** WebFetch `/customer-stories` + homepage. Extract names, industry, size, use case, outcome metrics, deal-size signals.
-2. **Derive their real ICP from the trophies.** Identify the spear-tip product they're pushing hardest (e.g., Zendesk's AI Agents in 2026). The trophies reveal what they're proud of and want to repeat.
-3. **Translate to Sumble-MCP-queryable signals** including at least one non-obvious match ZoomInfo can't tag.
-4. **Query Sumble MCP** (`FindJobs`, `FindOrganizations`, `RunSqlQuery`, `EnrichOrganization`, `FindPeople`, `EnrichPerson`). Pick top 1 by signal density.
-5. **Frame the deliverable:** *"Best prospect for [Target]'s [spear-tip] play: [Account X]. Why it fits: [trophy match]. What Sumble surfaced: [non-obvious signal]. What ZoomInfo can't see: [team-level signal]. The pitch [Target] should run: [product → pain]."*
+**The flow (10 phases — full operational detail in `outbound_sales_brain.md` memory file):**
 
-**Cluster scaling:** define a category leader and their competitors as a cluster. Each member shares the category but has its own *intricacy* (Zendesk = enterprise AI Agents; Intercom = PLG mid-market SaaS; Freshworks = cost-conscious mid-market; Salesforce Service Cloud = CRM-tied enterprise). Run Phases 1–5 per cluster member, with intricacy-specific filters at Phase 3. One cluster understanding produces N tailored pitches — the leverage compounds.
+1. Refresh Sumble's own ICP/persona context (`GetMyCompanyProfile`, free).
+2. Read the target's trophy stories (WebFetch /customer-stories + homepage).
+3. Map their GTM data stack (`EnrichOrganization` filtered to Sumble competitors + complementary tools) — exposes displacement zones.
+4. Map active initiatives via hiring (`FindJobs` on Marketing/Sales/RevOps/AI roles) — grounds the "why now."
+5. Map senior leadership (`FindPeople` filtered to Marketing/Sales/RevOps, with start dates) — recent hires = fresh budget.
+6. Synthesize: data-stack wedge + "why now" signal + buyer persona shortlist.
+7. Recommend persona priority and **ask before drafting**.
+8. Find the top-fit prospect for the *target's* sales motion (the Razorpay-style anchor) with segment-by-segment pipeline math.
+9. Frame the 7-section deliverable: anchor + trophy-fit + financial frame + strategic frame + buyer (per target's ICP) + what Sumble surfaced + the pitch the target should run.
+10. Draft persona-specific cold email + push to Gmail with SFDC BCC.
 
-Operational details (cluster definitions, per-company intricacies) live in `cluster_prospecting_framework.md` in Eric's local memory.
+**Persona-specific framing rules:**
+- **Marketing leader:** ABM list quality, MQL → SQL conversion, data-driven decisioning. Anchor on pipeline created per quarter.
+- **Sales leader:** AE productivity, attainment, top accounts, signal density per account. Anchor on pipeline coverage per rep + win rate.
+- **RevOps leader:** Segment expansion math, data-stack ROI, CRM enrichment as the always-on layer.
+
+**Segment-by-segment pipeline math (always):** never one inflated number. Break into existing-customer expansion potential ($X) + net-new-logo TAM ($Y), each with explicit math the buyer can sanity-check.
+
+**Cluster scaling:** define a category leader and their competitors as a cluster. Each member shares the category but has its own *intricacy* — Zendesk (enterprise + AI Agents), Intercom (PLG mid-market SaaS), Freshworks (cost-conscious mid-market), Salesforce Service Cloud (CRM-tied enterprise). Run all 10 phases per cluster member with intricacy-specific filters at Phase 3 and Phase 8.
+
+**Validated:** 2026-05-06 against Zendesk. Surfaced full GTM stack (6Sense + ZoomInfo + Apollo + Demandbase + Marketo as legacy data layer; Salesforce + Outreach + HubSpot as core), AI Product Specialist organization with dedicated sales operations, and full Marketing/Sales/RevOps leadership shortlist in ~3 minutes / ~150 credits.
 
 ---
 
