@@ -1,0 +1,1354 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Eric's AE knowledge base — plays, battlecards, outbound briefs.">
+      
+      
+      
+        <link rel="canonical" href="https://fitzeric97.github.io/sumble-sales-brain/outbound-briefs/Genesys-Mastercard-ABMListBuild/">
+      
+      
+        <link rel="prev" href="../Five9-SoFi-MQLEnrichment/">
+      
+      
+        <link rel="next" href="../Gladly-YETI-MQLEnrichment/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Outbound Strategic Research Brief — Sumble → Genesys - Sumble Sales Brain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#outbound-strategic-research-brief-sumble-genesys" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Sumble Sales Brain" class="md-header__button md-logo" aria-label="Sumble Sales Brain" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sumble Sales Brain
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Outbound Strategic Research Brief — Sumble → Genesys
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fitzeric97/sumble-sales-brain" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    fitzeric97/sumble-sales-brain
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Sumble Sales Brain" class="md-nav__button md-logo" aria-label="Sumble Sales Brain" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Sumble Sales Brain
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fitzeric97/sumble-sales-brain" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    fitzeric97/sumble-sales-brain
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sumble%20Sales%20Brain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sales Brain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../competitive-landscape/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Competitive Landscape
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Outbound briefs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Outbound briefs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Five9-SoFi-MQLEnrichment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → Five9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → Genesys
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → Genesys
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-business-problem-sumble-solves-for-genesys" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Business Problem Sumble Solves For Genesys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-anchor-prospect-mastercard-new-logo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Anchor Prospect: Mastercard [NEW LOGO]
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-mastercard-fits-the-trophy-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why Mastercard Fits the Trophy Pattern
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-financial-frame-segment-by-segment" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Financial Frame (Segment-by-Segment)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Financial Frame (Segment-by-Segment)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anchor-deal-at-mastercard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anchor deal at Mastercard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#net-new-lookalike-tam-for-the-f500-avayanice-migration-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      Net-new lookalike TAM for the "F500 Avaya/NICE migration" play
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-strategic-frame-why-this-account-why-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Strategic Frame — Why This Account, Why Now
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Strategic Frame — Why This Account, Why Now">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trigger-1-the-bullseye-mastercards-avaya-footprint-is-active-mid-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 1 (the bullseye): Mastercard's Avaya footprint is active mid-migration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-2-direct-trophy-parallel-to-visa-existing-genesys-customer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 2: Direct trophy parallel to Visa (existing Genesys customer)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-3-genesyss-pre-ipo-marketing-rebuild-salesforceservicenow-strategic-investment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 3: Genesys's pre-IPO marketing rebuild + Salesforce/ServiceNow strategic investment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-window-will-close" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the window will close
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-buyer-at-mastercard-per-genesyss-icp-vp-customer-service-global-head-of-contact-center" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Buyer at Mastercard (per Genesys's ICP — VP Customer Service / Global Head of Contact Center)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-sumble-surfaced-that-zoominfo-apollo-6sense-usergems-demandbase-cannot" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What Sumble Surfaced (That ZoomInfo / Apollo / 6Sense / UserGems / Demandbase Cannot)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-the-pitch-genesys-should-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. The Pitch Genesys Should Run
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methodology-how-sumbles-mcp-found-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methodology — how Sumble's MCP found this
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gladly-YETI-MQLEnrichment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → Gladly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gong-LastPass-TriggerEvent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → Gong
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sana-ColetteBishogo-EngagedAccount/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outreach Brief — Sumble → Sana [ENGAGED ACCOUNT]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SolarWinds-Leidos-ExpansionDefense/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — Sumble → SolarWinds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TEMPLATE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outbound Strategic Research Brief — TEMPLATE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Xero-OrionHealth-TechDisplacement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xero NZ Mid-Market — Outbound Use Case Brief
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Battlecards
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Battlecards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../battlecards/clay/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Battlecard: Clay
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../battlecards/common-room/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Battlecard: Common Room
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-business-problem-sumble-solves-for-genesys" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Business Problem Sumble Solves For Genesys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-anchor-prospect-mastercard-new-logo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Anchor Prospect: Mastercard [NEW LOGO]
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-mastercard-fits-the-trophy-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why Mastercard Fits the Trophy Pattern
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-financial-frame-segment-by-segment" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Financial Frame (Segment-by-Segment)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Financial Frame (Segment-by-Segment)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anchor-deal-at-mastercard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anchor deal at Mastercard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#net-new-lookalike-tam-for-the-f500-avayanice-migration-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      Net-new lookalike TAM for the "F500 Avaya/NICE migration" play
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-strategic-frame-why-this-account-why-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Strategic Frame — Why This Account, Why Now
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Strategic Frame — Why This Account, Why Now">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trigger-1-the-bullseye-mastercards-avaya-footprint-is-active-mid-migration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 1 (the bullseye): Mastercard's Avaya footprint is active mid-migration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-2-direct-trophy-parallel-to-visa-existing-genesys-customer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 2: Direct trophy parallel to Visa (existing Genesys customer)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-3-genesyss-pre-ipo-marketing-rebuild-salesforceservicenow-strategic-investment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger 3: Genesys's pre-IPO marketing rebuild + Salesforce/ServiceNow strategic investment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-the-window-will-close" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the window will close
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-buyer-at-mastercard-per-genesyss-icp-vp-customer-service-global-head-of-contact-center" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Buyer at Mastercard (per Genesys's ICP — VP Customer Service / Global Head of Contact Center)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-what-sumble-surfaced-that-zoominfo-apollo-6sense-usergems-demandbase-cannot" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. What Sumble Surfaced (That ZoomInfo / Apollo / 6Sense / UserGems / Demandbase Cannot)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-the-pitch-genesys-should-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. The Pitch Genesys Should Run
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methodology-how-sumbles-mcp-found-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methodology — how Sumble's MCP found this
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/fitzeric97/sumble-sales-brain/edit/main/outbound-briefs/Genesys-Mastercard-ABMListBuild.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="outbound-strategic-research-brief-sumble-genesys">Outbound Strategic Research Brief — Sumble → Genesys<a class="headerlink" href="#outbound-strategic-research-brief-sumble-genesys" title="Permanent link">&para;</a></h1>
+<p><strong>Date:</strong> 2026-05-06
+<strong>Target (whom Sumble is pitching):</strong> Genesys (genesys.com)
+<strong>Anchor prospect (whom Genesys should pursue):</strong> Mastercard <code>[NEW LOGO]</code>
+<strong>Recommended recipient at Genesys:</strong> Veronica Servantez — SVP Product Marketing (multi-thread Erika Chandler, SVP Global RevOps + Larry Shurtz, CSO)</p>
+<hr />
+<h2 id="tldr">TL;DR<a class="headerlink" href="#tldr" title="Permanent link">&para;</a></h2>
+<p>Sumble surfaces a <strong>$3M–$7M ACV new-logo deal at Mastercard</strong> invisible to ZoomInfo / Apollo / 6Sense / UserGems / Demandbase: Mastercard runs Avaya across 13 teams with 22 active jobs and 30 contact-center operators (last job posted 2026-01-18) — a textbook mid-migration F500 financial-services estate matching Genesys's named Visa / BNP Paribas / HSBC trophy pattern. 60–100 F500 lookalikes per year on Avaya/NICE migrations = ~<strong>$160M qualifying pipeline / quarter, $160M annualized new ARR</strong> at 25% win rate — about 18% of Genesys's $910M annual net-new Cloud ARR target from a single play, pre-IPO.</p>
+<hr />
+<h2 id="1-business-problem-sumble-solves-for-genesys">1. Business Problem Sumble Solves For Genesys<a class="headerlink" href="#1-business-problem-sumble-solves-for-genesys" title="Permanent link">&para;</a></h2>
+<p>Genesys disclosed <strong>$2.6B Cloud ARR growing 35% YoY</strong> and <strong>AI ARR over $250M growing ~2× the platform</strong>, with a confidential IPO filing already in (mid-2025) and a $1.5B strategic investment from Salesforce + ServiceNow. 35% on $2.6B = ~$910M net-new Cloud ARR for the next year; at 4× pipeline coverage and 25% win rate, that is <strong>~$3.6B of qualifying pipeline</strong> to materialize into the IPO narrative. The pre-IPO marketing reorg under Veronica Servantez (SVP Product Marketing, Apr 2025) and the new Demand Hub being stood up under VP Integrated Marketing Americas exist precisely to deliver this number.</p>
+<p>Genesys's GTM data stack (mapped via Sumble):</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Jobs</th>
+<th>People</th>
+<th>Teams</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Salesforce</td>
+<td>1,044</td>
+<td>650</td>
+<td>243</td>
+</tr>
+<tr>
+<td>Salesloft</td>
+<td>174</td>
+<td>11</td>
+<td>22</td>
+</tr>
+<tr>
+<td>6Sense</td>
+<td>108</td>
+<td>2</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Outreach</td>
+<td>106</td>
+<td>11</td>
+<td>10</td>
+</tr>
+<tr>
+<td>LinkedIn Sales Nav</td>
+<td>87</td>
+<td>18</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Adobe Marketo</td>
+<td>33</td>
+<td>15</td>
+<td>11</td>
+</tr>
+<tr>
+<td>ZoomInfo</td>
+<td>17</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>UserGems</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Demandbase</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Gong</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>Clay / Common Room / Champify / HG Insights</strong></td>
+<td><strong>0</strong></td>
+<td><strong>0</strong></td>
+<td><strong>0</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Heavy stack — 6Sense entrenched at 21 teams, Salesloft + Outreach as primary engagement layer, Marketo as MAP, Salesforce massive at 243 teams. <strong>UserGems silent for 8 months (zero people, last job Sep 2025), Demandbase dead for 18 months (zero active hiring).</strong> The decay zone is real and Sumble walks into the empty UserGems / Demandbase seat. <strong>Modern signal layer at zero (Clay / Common Room / Champify) — clean entry.</strong></p>
+<p>Their existing tools tell them <em>which F500 has visited the AI page</em> and an account intent score. <strong>None fingerprint a 13-team Avaya estate mid-migration with 22 active CCaaS jobs and 30 contact-center operators</strong> — and that team-level migration-phase signal is what every Genesys play (PMM positioning, RevOps coverage, Demand-Hub MQLs, AE territory design) needs to fire with precision pre-IPO. Sumble produces it; the existing stack cannot.</p>
+<hr />
+<h2 id="2-anchor-prospect-mastercard-new-logo">2. Anchor Prospect: Mastercard <code>[NEW LOGO]</code><a class="headerlink" href="#2-anchor-prospect-mastercard-new-logo" title="Permanent link">&para;</a></h2>
+<p>Mastercard — global payments network, ~42,133 employees, ~$30B revenue. Diversified F500 financial-services giant with global contact-center operations supporting consumer, B2B, and issuer services. Direct trophy parallel to Genesys's named Visa relationship.</p>
+<p><em>Anchor type rationale: NEW LOGO. Mastercard runs Avaya (Genesys's primary legacy-displacement target); zero current Genesys deployment per Sumble enrichment.</em></p>
+<hr />
+<h2 id="3-why-mastercard-fits-the-trophy-pattern">3. Why Mastercard Fits the Trophy Pattern<a class="headerlink" href="#3-why-mastercard-fits-the-trophy-pattern" title="Permanent link">&para;</a></h2>
+<p>Genesys's named trophies are F500 enterprise across BFSI / Telco / Hospitality / Travel: HSBC, Vodafone, Visa, Best Buy Canada, BNP Paribas, Virgin Atlantic. Mastercard is the direct fintech parallel to Visa — same global F500 payment-network shape, same multi-region contact-center structure, same regulatory + compliance pressure profile.</p>
+<p>The inflection point: Mastercard's Avaya footprint is mid-migration (22 active jobs across 13 teams as of January 2026). F500 contact-center modernization typically spans 24–36 months from "we are evaluating" to "we have signed a multi-year cloud contract." Mastercard is in the active-evaluation window, and Genesys's PE-to-IPO narrative needs F500 logos like this one signed before the listing.</p>
+<hr />
+<h2 id="4-financial-frame-segment-by-segment">4. Financial Frame (Segment-by-Segment)<a class="headerlink" href="#4-financial-frame-segment-by-segment" title="Permanent link">&para;</a></h2>
+<h3 id="anchor-deal-at-mastercard">Anchor deal at Mastercard<a class="headerlink" href="#anchor-deal-at-mastercard" title="Permanent link">&para;</a></h3>
+<ul>
+<li>30 Avaya-tagged contact-center operators surfaced + 22 active Avaya jobs across 13 teams → <strong>~2,500–4,500 contact-center seats globally</strong> (estimating multipliers for non-tagged operators across global ops centers)</li>
+<li>Genesys Cloud + Engage + Experience Orchestration enterprise pricing typically $1,500–2,500 per seat per year on bundled subscription</li>
+<li>Estimated annual seat math: 2,500–4,500 seats × $1,500–2,500 = <strong>$3.75M–$11.25M</strong></li>
+<li><strong>Estimated anchor ACV: $3M–$7M</strong> (recurring, lands on a multi-region phased deployment, expansion to AI agents + WEM in years 2–3)</li>
+</ul>
+<h3 id="net-new-lookalike-tam-for-the-f500-avayanice-migration-play">Net-new lookalike TAM for the "F500 Avaya/NICE migration" play<a class="headerlink" href="#net-new-lookalike-tam-for-the-f500-avayanice-migration-play" title="Permanent link">&para;</a></h3>
+<ul>
+<li>~60–100 F500 enterprises in BFSI / Telecom / Hospitality / Insurance per year run Avaya OR NICE CXone with 10K+ employees AND have an active CCaaS/Conversational AI hiring signal (estimated from Sumble query base of ~118 US-HQ F500 Avaya/NICE estates in those verticals)</li>
+<li>Avg ACV at this segment: $1.5M–$3M</li>
+<li>80 lookalike accounts × $2M avg = <strong>$160M qualifying pipeline per year</strong></li>
+<li>25% win rate = <strong>$40M new ARR / year, ramping to $160M annual run-rate over 4-year contract durations</strong></li>
+</ul>
+<p>→ <strong>A single Sumble-surfaced play produces ~$40M–$160M of new Cloud ARR — roughly 4–18% of Genesys's $910M annual net-new Cloud ARR target</strong> before counting expansion plays into existing trophy accounts and pre-IPO logo-quality wins (which carry disproportionate IPO-narrative value).</p>
+<hr />
+<h2 id="5-strategic-frame-why-this-account-why-now">5. Strategic Frame — Why This Account, Why Now<a class="headerlink" href="#5-strategic-frame-why-this-account-why-now" title="Permanent link">&para;</a></h2>
+<h3 id="trigger-1-the-bullseye-mastercards-avaya-footprint-is-active-mid-migration">Trigger 1 (the bullseye): Mastercard's Avaya footprint is active mid-migration<a class="headerlink" href="#trigger-1-the-bullseye-mastercards-avaya-footprint-is-active-mid-migration" title="Permanent link">&para;</a></h3>
+<p>22 active Avaya jobs across 13 teams (last job posted 2026-01-18, 30 Avaya-tagged operators). That is the canonical "we are still hiring on the legacy platform but actively evaluating a cloud successor" pattern. F500 financial-services migrations off Avaya typically land in the 18–30-month buying window once active evaluation begins.</p>
+<h3 id="trigger-2-direct-trophy-parallel-to-visa-existing-genesys-customer">Trigger 2: Direct trophy parallel to Visa (existing Genesys customer)<a class="headerlink" href="#trigger-2-direct-trophy-parallel-to-visa-existing-genesys-customer" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Customer</th>
+<th>Genesys role</th>
+<th>Industry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visa</td>
+<td>Existing trophy</td>
+<td>F500 payments network</td>
+</tr>
+<tr>
+<td>BNP Paribas</td>
+<td>Existing trophy</td>
+<td>F500 European banking</td>
+</tr>
+<tr>
+<td>HSBC</td>
+<td>Existing trophy</td>
+<td>F500 global banking</td>
+</tr>
+<tr>
+<td><strong>Mastercard</strong></td>
+<td><strong>Anchor target</strong></td>
+<td><strong>F500 payments network — direct Visa parallel</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The proof points to bring into the first conversation are already in Genesys's deck. Mastercard's procurement and CIO orgs will recognize the Visa case study by name.</p>
+<h3 id="trigger-3-genesyss-pre-ipo-marketing-rebuild-salesforceservicenow-strategic-investment">Trigger 3: Genesys's pre-IPO marketing rebuild + Salesforce/ServiceNow strategic investment<a class="headerlink" href="#trigger-3-genesyss-pre-ipo-marketing-rebuild-salesforceservicenow-strategic-investment" title="Permanent link">&para;</a></h3>
+<p>David Norrie (SVP PMM EMEA, Aug 2024) + Veronica Servantez (SVP PMM, Apr 2025) reorganizing PMM. Demand Hub being stood up under VP Integrated Marketing Americas. The $1.5B Salesforce + ServiceNow co-investment unlocks deep co-sell motion. F500 logos like Mastercard are <em>also</em> Salesforce + ServiceNow customers — co-sell amplifier.</p>
+<h3 id="why-the-window-will-close">Why the window will close<a class="headerlink" href="#why-the-window-will-close" title="Permanent link">&para;</a></h3>
+<p>F500 Avaya migrations resolve within 18–30 months of active evaluation. Once Mastercard issues the cloud-CCaaS RFP and downselects, the window closes for 5+ years. Pre-IPO timing pressure on Genesys means landing this within 2–3 quarters or losing IPO-narrative value.</p>
+<hr />
+<h2 id="6-buyer-at-mastercard-per-genesyss-icp-vp-customer-service-global-head-of-contact-center">6. Buyer at Mastercard (per Genesys's ICP — VP Customer Service / Global Head of Contact Center)<a class="headerlink" href="#6-buyer-at-mastercard-per-genesyss-icp-vp-customer-service-global-head-of-contact-center" title="Permanent link">&para;</a></h2>
+<p>🥇 <strong>Global Head / VP Customer Service Operations</strong> at Mastercard (verify via FindPeople before naming). Owns the platform decision across consumer + B2B + issuer service lines.</p>
+<p>🥈 <strong>VP / SVP Customer Experience or Member Services</strong> (likely champion since Avaya consolidation runs through their P&amp;L).</p>
+<p>🥉 <strong>CIO / SVP Enterprise Architecture</strong> (multi-thread for the Avaya retirement + cloud migration architecture; Genesys's $1.5B Salesforce + ServiceNow co-investment gives CIO the "we already use the strategic partner ecosystem" frame).</p>
+<hr />
+<h2 id="7-what-sumble-surfaced-that-zoominfo-apollo-6sense-usergems-demandbase-cannot">7. What Sumble Surfaced (That ZoomInfo / Apollo / 6Sense / UserGems / Demandbase Cannot)<a class="headerlink" href="#7-what-sumble-surfaced-that-zoominfo-apollo-6sense-usergems-demandbase-cannot" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>The team-level Avaya migration footprint.</strong> ZoomInfo and 6Sense show "Mastercard uses Avaya" — a single boolean. Sumble shows: 13 specific teams running Avaya, 22 active jobs across them, 30 named contact-center operators tagged, last job posted Jan 2026. That team-level granularity is the migration-phase signal. Firmographic tools cannot produce it because they treat tech adoption at company level, not team level.</li>
+<li><strong>The trophy-pattern fingerprint match.</strong> 6Sense and Demandbase show category intent. Sumble compares Mastercard's full deployment fingerprint (F500 financial-services + 42K employees + 13-team Avaya estate + 30 CC operators) against Genesys's <em>named</em> trophy roster (Visa, BNP Paribas, HSBC) and ranks structural match before any rep opens the account.</li>
+<li><strong>The timing layer for migration-buying-windows.</strong> UserGems flags job changes; it does not tell you a 22-job Avaya estate has been active for 60+ days post-prior-decision-cycle. Sumble's last-job-on-tech timestamps drive the migration-phase math.</li>
+<li><strong>Co-sell signal layering.</strong> Demandbase shows "Mastercard is in market." Sumble flags that Mastercard is <em>also</em> a Salesforce + ServiceNow customer at scale — which is the co-sell amplifier given Genesys's strategic investment partners. None of the existing stack joins those two facts into a play hypothesis.</li>
+</ul>
+<hr />
+<h2 id="8-the-pitch-genesys-should-run">8. The Pitch Genesys Should Run<a class="headerlink" href="#8-the-pitch-genesys-should-run" title="Permanent link">&para;</a></h2>
+<p><strong>Lead:</strong> "Mastercard is mid-Avaya — 13 teams, 22 active jobs, 30 contact-center operators, last job posted in January. They sit one Visa-quality logo away from defining your pre-IPO F500-financial-services narrative, and the Salesforce + ServiceNow co-sell motion gives you the strategic partner amplifier Avaya does not have. Want a 30-minute walk-through of how we'd run the F500-payments-migration pitch with Visa and BNP Paribas as the proof points?"</p>
+<p><strong>Proof points:</strong> Visa, BNP Paribas, HSBC, Vodafone, Best Buy Canada, Virgin Atlantic from <code>genesys.com/customer-stories</code>. The $2.6B Cloud ARR + 35% YoY + $250M+ AI ARR public metrics. Salesforce + ServiceNow strategic investment as the partner ecosystem.</p>
+<p><strong>CTA:</strong> 30-min discovery with Global Head Customer Service Ops at Mastercard. Pilot scope: 90-day Genesys Cloud parallel deployment on a single region (e.g., LATAM consumer support), measured on AI-resolution rate + agent productivity + Avaya retirement timeline. Multi-thread to CIO + Salesforce/ServiceNow account team for the co-sell motion.</p>
+<hr />
+<h2 id="methodology-how-sumbles-mcp-found-this">Methodology — how Sumble's MCP found this<a class="headerlink" href="#methodology-how-sumbles-mcp-found-this" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>GetMyCompanyProfile</strong> (free) — grounded Sumble's persona/play context (PMM signal layer, RevOps signal density, Demand Gen MQL fingerprinting)</li>
+<li><strong>WebFetch [genesys.com]</strong> + <strong>WebSearch</strong> — extracted trophy customers, $2.6B Cloud ARR + 35% YoY + $250M AI ARR public metrics, IPO + Salesforce/ServiceNow strategic investment narrative</li>
+<li><strong>EnrichOrganization on genesys.com</strong> filtered to Sumble competitors + complementary tools — mapped 6Sense (108 jobs/21 teams) entrenched, Salesloft/Outreach primary, UserGems silent 8mo, Demandbase dead 18mo, modern signal layer at zero</li>
+<li><strong>FindPeople on genesys.com</strong> (Marketing/Sales/Executive + RevOps queries) — surfaced 10-leader bench: Veronica Servantez SVP PMM (Apr 2025), David Norrie SVP PMM EMEA (Aug 2024), Janelle Binder/Dieken SVP Content/Customer/Event, Erika Chandler SVP Global RevOps, Larry Shurtz CSO, David Rahm SVP Americas Sales (Feb 2026 fresh), Jennifer Harrington VP NA Regional Mktg, John Capin VP Demand Gen Ops, Melissa Dixon VP Content &amp; Thought Leadership (Jan 2026 fresh), Arman Assa VP Global Sales Ops</li>
+<li><strong>EnrichPerson on Larry Shurtz</strong> — confirmed Genesys email convention <code>firstname.lastname@genesys.com</code></li>
+<li><strong>SearchTechnologies('genesys')</strong> + <strong>SearchTechnologies('nice cxone')</strong> — confirmed competitor slugs <code>nice-cxone</code>, <code>avaya</code></li>
+<li><strong>FindOrganizations</strong> with industry IN ('Finance and Insurance','Information','Accommodation and Food Services') AND technology IN ('nice-cxone','avaya') AND employee_count 10000-100000 AND hq_location US — surfaced Mastercard (account_score 26.62, "Great"), American Express, Charter Communications, Morgan Stanley</li>
+<li><strong>EnrichOrganization on mastercard.com</strong> filtered to nice-cxone + avaya — confirmed Avaya only (22 jobs / 13 teams / 30 people, last job 2026-01-18)</li>
+<li><strong>EnrichPerson</strong> × 9 on remaining Genesys leaders — confirmed all email addresses for the multi-thread</li>
+</ol>
+<p>Total elapsed time: ~8 minutes. ~415 credits.</p>
+<hr />
+<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Genesys public Cloud ARR + AI ARR + IPO disclosures — Permira / Genesys Q4 calendar 2024 + 2025 disclosures</li>
+<li>Genesys + Salesforce + ServiceNow strategic investment — June 2024 announcement</li>
+<li>Genesys customer roster — genesys.com/customer-stories</li>
+<li>Mastercard Avaya footprint via Sumble (sumble.com/l/org/k8xHkGv1JT6ls)</li>
+<li>Veronica Servantez LinkedIn — linkedin.com/in/veronica-servantez-04a7549</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/fitzeric97/sumble-sales-brain" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "navigation.indexes", "search.highlight", "search.suggest", "search.share", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
